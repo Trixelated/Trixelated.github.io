@@ -199,28 +199,27 @@ So far, I have worked on numerous apps. Most of these apps were developed while 
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
-                        
-						<div class="fields" style="display:none">
+                    <form action="mailto:your_email@example.com" method="GET" enctype="text/plain">
+                        <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="subject" placeholder="Subject" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="text" name="body" placeholder="Message" required>
                             </div>
                         </div>
-                        <div class="field" style="display:none">
-                            <input type="text" placeholder="Subject" required>
+                        <div class="field name">
+                            <input type="text" name="name" placeholder="Name" required>
                         </div>
-                        <div class="field textarea" style="display:none">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        <div class="field email">
+                            <input type="email" name="email" placeholder="Email" required>
                         </div>
-						
+                       
                         <div class="button-area">
-                            <button type="submit" href="https://wa.link/50532h">Send message</button>
+                            <button type="submit">Send message</button>
                         </div>
-						
                     </form>
+                    
                 </div>
             </div>
         </div>
