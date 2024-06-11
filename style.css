@@ -349,7 +349,7 @@ section .title::after{
 
 /* teams section styling */
 .teams  .title::after{
-    content: "who with me";
+    content: "projects";
 }
 .teams .carousel .card{
     background: #222;
@@ -384,6 +384,10 @@ section .title::after{
     border-radius: 50%;
     border: 5px solid crimson;
     transition: all 0.3s ease;
+}
+.teams .carousel .card  .github-icon {
+    height: 50px;
+    width: 50px;
 }
 .teams .carousel .card:hover img{
     border-color: #fff;
